@@ -1,0 +1,232 @@
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-fef19882-b86a-4cc1-970e-561a8169d26d','TEMP-fef19882-b86a-4cc1-970e-561a8169d26d','001p000000wkMtbAAE','MR','anilkumar@spbltd.com','anil','India- +91',true,'kumar','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL ACCOUNT',true,true,now());
+
+--add-opens java.base/java.lang.invoke=ALL-UNNAMED
+
+TEMP-9ac8fe33-1962-474c-9d51-ff759845066a
+TEMP-fef19882-b86a-4cc1-970e-561a8169d26d
+https://edgelive.thermaxglobal.com/#/externaluser?email=mayur.saraswat@thermaxglobal.com&access_token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYXl1ci5zYXJhc3dhdEB0aGVybWF4Z2xvYmFsLmNvbSIsImp0aSI6IlRFTVAtYTBiODNlYjQtNWRmYi00YjgyLTg4ZTQtYWQzMTdmNjk5MWU0IiwiYXVkIjoiVGhlcm1heCIsImlzcyI6IlRoZXJtYXgiLCJpYXQiOjE2NTk5Mzg4MTMsImV4cCI6MTY1OTk0MjQxMywicm9sZSI6IkVER0VfTElWRSIsInVpZCI6IlRFTVAtYTBiODNlYjQtNWRmYi00YjgyLTg4ZTQtYWQzMTdmNjk5MWU0IiwiYWlkIjoiMDAxcDAwMDAwMHdrTXRiQUFFIn0.c9gakx5U9hXWr3LACO-swrf-Q5HLJ95LY26KexuBfWI&redirectUrl=https%3A%2F%2Fsainthermaxdev.z29.web.core.windows.net%2Flogout
+
+
+$2a$10$NbMrgm3ADxBS7vLgfw7hEetYSfdyqA0IlLf6FcKEKEiDO9auUZn1O
+
+
+$2a$10$NbMrgm3ADxBS7vLgfw7hEetYSfdyqA0IlLf6FcKEKEiDO9auUZn1O
+
+3600000
+
+
+0017F00000O5fdgQAB
+
+
+2022-05-10 05:47:39.952  
+
+expi = 2022-05-10 06:47:39.943
+
+0017F000005ywk0QAA
+
+
+f5e07d55-c790-4acc-b24f-85edfbc927da
+
+8d13437d-02c6-40d0-a405-7f39cba05abf   eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoZF9tZWNoQG90c3VrYWluZGlhLmNvbSIsImp0aSI6IjAwMzdGMDAwMDFhSWxIelFBSyIsImF1ZCI6IlRoZXJtYXgiLCJpc3MiOiJUaGVybWF4IiwiaWF0IjoxNjUyMTYxNjU5LCJleHAiOjE2NTIxNjUyNTksInJvbGUiOiJTRU5JT1JfTUFOQUdFUiIsInVpZCI6IjAwMzdGMDAwMDFhSWxIelFBSyIsImFpZCI6IjAwMTdGMDAwMDFUVDM0aVFBRCJ9.GBhA0p28nb1JrRu5aBXxFYvDmzWoGRU2DeQSgcxYlLA
+
+
+0017F00000O5fdgQAB
+
+gunjan ----- 0017F000005ywk0QAA    003Bg0000009YYhrdk0
+
+
+sachin - account id default -- 0017F000005yvW1QAI
+
+
+
+
+SELECT id, user_id, account_id, salutation, department, email, thermax_rep_email, first_name, international_calling_code, is_active, last_name, mailing_city, mailing_country, mailing_postal_code, mailing_state, mailing_street, middle_name, mobile_phone, "password", phone, profilepic, "role", status, country, countrycode, countryid, createdon, designation, force_change_pwd, account_name, verification_code, is_active_for_cp, verification_email_sent
+FROM tcp_users.users;
+
+select * from tcp_users.users where email ='hd_mech@otsukaindia.com';
+update tcp_users.users  set email = 'hd_mech@otsukaindia.com' where account_id = '0017F00001TT34iQAD';
+
+
+
+select * from tcp_users.users u  where email = 'hd_mech@otsukaindia.com' or email = 'hardik.u.patel@thermaxglobal.com';
+
+select * from tcp_users.jwt_token jt where email = 'gunjan.khatter@nagarro.com';
+
+
+
+
+select * from tcp_users.user_details ud ;
+select  * from tcp_assets.assets a where accountid = '0017F000005ywk0QAA' or accountid = '0017F00001TT34iQAD';
+select * from tcp_accounts.accounts a;
+select * from tcp_users.roles r limit 2;
+select account_source,name,id from tcp_accounts.accounts a;
+OTSUKA CHEMICAL (INDIA) PRIVATE LIMITED	
+
+
+
+
+
+
+select email,"password" ,role from tcp_users.users where email ='sachin.natu@thermaxglobal.com';
+select * from tcp_users.jwt_token  where email = 'sachin.natu@thermaxglobal.com';
+
+
+
+
+
+
+
+
+
+
+
+
+
+update tcp_users.users set role = 'SENIOR_MANAGER' where email = 'sachin.natu@thermaxglobal.com';
+select * from tcp_users.users a  where email ='hd_mech@otsukaindia.com';
+select * from tcp_users.roles r ;
+select * from tcp_users.jwt_token jt  where email = 'hd_mech@otsukaindia.com';
+select * from tcp_enquiry.cart c where 
+select * from tcp_assets.assets a  where accountid  = '0017F00000O5fdgQAB';
+update tcp_users.jwt_token jt  set token = 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYWNoaW4ubmF0dUB0aGVybWF4Z2xvYmFsLmNvbSIsImp0aSI6IjAwMzlCMDAwMDAyOXB1clFBQSIsImF1ZCI6IlRoZXJtYXgiLCJpc3MiOiJUaGVybWF4IiwiaWF0IjoxNjYwMDIxODc5LCJleHAiOjE2NjAwMjU0NzksInJvbGUiOiJTRU5JT1JfTUFOQUdFUiIsInVpZCI6IjAwMzlCMDAwMDAyOXB1clFBQSIsImFpZCI6IjAwMTdGMDAwMDA1eXZXMVFBSSJ9.UwXDcKUO8U7HWJyX90RuS9yBm1lLh4tDlvuQf3fi9Gg' where email  = 'sachin.natu@thermaxglobal.com';
+select now();
+
+
+select * from tcp_assets.assets a where accountid = '0017F00000O5fdgQAB';
+select * from tcp_users.jwt_token_refresh jtr where user_id = '003Bg0000009YYhrdk0' or user_id = '0037F00001aIlHzQAK';
+
+select * from tcp_users.jwt_token jt  where email  = 'hardik.u.patel@thermaxglobal.com' or email  = 'hd_mech@otsukaindia.com' or email = 'gunjan.khatter@nagarro.com';
+
+select * from tcp_users.jwt_token_refresh jtr  where user_id = 'hardik.u.patel@thermaxglobal.com' or user_id  = 'hd_mech@otsukaindia.com';
+select * from tcp_users.jwt_token_refresh jtr where user_id = 'hardik.u.patel@thermaxglobal.com' or user_id  = 'hd_mech@otsukaindia.com';
+
+update tcp_users.users set account_id='0017F00001TT34iQAD', account_name = 'OTSUKA CHEMICAL (INDIA) PRIVATE LIMITED' where email  = 'gunjan.khatter@nagarro.com';
+
+delete from tcp_users.jwt_token  where email = 'hd_mech@otsukaindia.com';
+
+
+select * from tcp_users.users u where role = 'EDGE_LIVE';
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-544caaa5-be19-4ae6-9aaa-21b4420fc167','TEMP-544caaa5-be19-4ae6-9aaa-21b4420fc167','001p000000wkMtbAAE','MR','avijit.banerjee@thermaxglobalcom','avijit','India- +91',true,'banerjee','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-e2b18a4d-2a06-4c0f-afd9-27b703195440','TEMP-e2b18a4d-2a06-4c0f-afd9-27b703195440','001p000000wkMtbAAE','MR','avijit.banerjee@thermaxglobal.com','avijit','India- +91',true,'banerjee','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+update tcp_users.users set account_id  = '0017F000005yvW1QAI' where id = 'TEMP-e2b18a4d-2a06-4c0f-afd9-27b703195440';
+select * from tcp_users.users where email  = 'avijit.banerjee@thermaxglobal.com';
+
+select * from tcp_accounts.accounts a where email_address = 'avijit.banerjee@thermaxglobal.com';
+
+
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-42265571-435a-423d-aa4a-26d2e75c0b6a','TEMP-42265571-435a-423d-aa4a-26d2e75c0b6a','0017F000005yvW1QAI','MR','avijit.banerjee@thermaxglobal.com','avijit','India- +91',true,'banerjee','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-aecb0fef-60d6-4337-80f7-505938d5d5c1','TEMP-aecb0fef-60d6-4337-80f7-505938d5d5c1','0017F000005yvW1QAI','MR','ridham.banik@thermaxglobal.com','ridham','India- +91',true,'banik','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-987d7639-b22e-495e-9e51-cb5c60e13336','TEMP-987d7639-b22e-495e-9e51-cb5c60e13336','0017F000005yvW1QAI','MR','s.arun@thermaxglobal.com','arun','India- +91',true,'s','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-6b1fc4b9-8467-4feb-9245-db5f47e7eab8','TEMP-6b1fc4b9-8467-4feb-9245-db5f47e7eab8','0017F000005yvW1QAI','MR','vignesh.vp@thermaxglobal.com','vignesh','India- +91',true,'vp','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-1efc286c-1286-4522-a053-ea2959429043','TEMP-1efc286c-1286-4522-a053-ea2959429043','0017F000005yvW1QAI','MR','nihanth.lagadapati@thermaxglobal.com','nihanth','India- +91',true,'lagadapathi','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-3fb2719d-7c7a-4f0f-a4d6-c2815e2bc254','TEMP-3fb2719d-7c7a-4f0f-a4d6-c2815e2bc254','0017F000005yvW1QAI','MR','raju.shinde@thermaxglobal.com','raju','India- +91',true,'shinde','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-b6596ad1-88eb-4a69-bc0c-6845e0b704f9','TEMP-b6596ad1-88eb-4a69-bc0c-6845e0b704f9','0017F000005yvW1QAI','MR','pravin.mahadik@thermaxglobal.com','pravin','India- +91',true,'mahadik','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-6a40b5dd-a221-4610-9d52-48eb7a818482','TEMP-6a40b5dd-a221-4610-9d52-48eb7a818482','0017F000005yvW1QAI','MR','nikhil.desai@thermaxglobal.com','nikhil','India- +91',true,'desai','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-48f3f452-843d-49e5-90c4-4f17fea3eb3c','TEMP-48f3f452-843d-49e5-90c4-4f17fea3eb3c','0017F000005yvW1QAI','MR','sijo.abraham@thermaxglobal.com','sijo','India- +91',true,'abraham','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-0866a390-285a-4822-a463-db782f99fd11','TEMP-0866a390-285a-4822-a463-db782f99fd11','0017F000005yvW1QAI','MR','PatelAkshay.K@thermaxglobal.com','akshay','India- +91',true,'patel','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-cb910fa2-1697-4f9a-8e38-ed98b04f24bf','TEMP-cb910fa2-1697-4f9a-8e38-ed98b04f24bf','0017F000005yvW1QAI','MR','naresh.gordiya@thermaxglobal.com','Naresh','India- +91',true,'Goradiya','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-eaeeed48-3fd4-48e4-8498-677fa18e6cbf','TEMP-eaeeed48-3fd4-48e4-8498-677fa18e6cbf','0017F000005yvW1QAI','MR','amol.kodavade@thermaxglobal.com','Amol','India- +91',true,'Kodavade','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-25ba4bce-d04e-4858-b883-6e2469f521e0','TEMP-25ba4bce-d04e-4858-b883-6e2469f521e0','0017F000005yvW1QAI','MR','Sharad.bhadoriya@thermaxglobal.com','Sharad','India- +91',true,'Bhadoriya','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+update tcp_users.users set email = 'sharad.bhadoriya@thermaxglobal.com' where id = 'TEMP-25ba4bce-d04e-4858-b883-6e2469f521e0';
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-7f4e4759-1b9a-42c0-bf00-9cbb601e6baf','TEMP-7f4e4759-1b9a-42c0-bf00-9cbb601e6baf','0017F000005yvW1QAI','MR','prakash.mishra@thermaxglobal.com','prakash','India- +91',true,'mishra','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-b8a894cd-f36d-46e8-aa2c-fd0ea640857f','TEMP-b8a894cd-f36d-46e8-aa2c-fd0ea640857f','0017F000005yvW1QAI','MR','felipe.magazoni@thermaxglobal.com','felipe','India- +91',true,'magazoni','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-0ad91c4c-7a5a-43e6-92f0-3aff2a3aef74','TEMP-0ad91c4c-7a5a-43e6-92f0-3aff2a3aef74','0017F000005yvW1QAI','MR','sajib.chakma@thermaxglobal.com','sajib','India- +91',true,'chakma','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-312f0d5d-7494-40aa-b9fd-a341b34a911b','TEMP-312f0d5d-7494-40aa-b9fd-a341b34a911b','0017F000005yvW1QAI','MR','udhayakumar.p@thermaxglobal.com','udhayakumar','India- +91',true,'p','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-483c1dd3-5aaa-45cc-a944-359e6eb78711','TEMP-483c1dd3-5aaa-45cc-a944-359e6eb78711','0017F000005yvW1QAI','MR','sachin.barge@Thermaxglobal.com','sachin','India- +91',true,'barge','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-03a6f89c-c1fe-4f0a-ac12-75c3ae429b4b','TEMP-03a6f89c-c1fe-4f0a-ac12-75c3ae429b4b','0017F000005yvW1QAI','MR','sikandar.pinjari@thermaxglobal.com','sikandar','India- +91',true,'pinjari','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-4e524531-24cc-4846-8fb9-b847b17b7bd7','TEMP-4e524531-24cc-4846-8fb9-b847b17b7bd7','0017F000005yvW1QAI','MR','mohanraj.a@thermaxglobal.com','mohanraj','India- +91',true,'a','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-16f6d6f9-63ff-401f-bac3-c4c7029fb5fc','TEMP-16f6d6f9-63ff-401f-bac3-c4c7029fb5fc','0017F000005yvW1QAI','MR','chawalit.pithukpornpunlop@thermaxglobal.com','chawalit','India- +91',true,'pithukpornpunlop','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-afcc1d17-1488-4d66-b46e-4044a28c2eae','TEMP-afcc1d17-1488-4d66-b46e-4044a28c2eae','0017F000005yvW1QAI','MR','bikash.das@thermaxglobal.com','bikash','India- +91',true,'das','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-1ec1346c-a382-4a4f-a29e-13197e3acd74','TEMP-1ec1346c-a382-4a4f-a29e-13197e3acd74','0017F000005yvW1QAI','MR','kaja.sheik@thermaxglobal.com','kaja','India- +91',true,'sheik','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-ed31de4c-640f-4f9d-9896-0b217af48464','TEMP-ed31de4c-640f-4f9d-9896-0b217af48464','0017F000005yvW1QAI','MR','olabisi.sb@thermaxglobal.com','olabisi','India- +91',true,'sb','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-94b4bd6b-ab49-43fd-a5be-54d19592109a','TEMP-94b4bd6b-ab49-43fd-a5be-54d19592109a','0017F000005yvW1QAI','MR','vsharma@thermax-usa.com','vijay','India- +91',true,'sharma','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','EDGE_LIVE','ACTIVE','ATUL LIMITED',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-9f563a8a-c735-40fe-80e0-56cb5a37490f','TEMP-9f563a8a-c735-40fe-80e0-56cb5a37490f','0017F000005yvW1QAI','MR','danushkas.cblgf@cbllk.com','danush','India- +91',true,'kas','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','SENIOR_MANAGER','ACTIVE','ATUL LIMITED',true,true,now());
+update tcp_users.users set account_name = 'CBL Global Foods' where  id = 'TEMP-9f563a8a-c735-40fe-80e0-56cb5a37490f';
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-8084a109-8d98-449b-8349-e9ae2d682d4d','TEMP-8084a109-8d98-449b-8349-e9ae2d682d4d','0017F000005yvW1QAI','MR','ahmed.charfi@leoni.com','ahmad','India- +91',true,'charfi','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','SENIOR_MANAGER','ACTIVE','ATUL LIMITED',true,true,now());
+
+update tcp_users.users set account_name = 'Leoni Wiring Systems' where  id = 'TEMP-8084a109-8d98-449b-8349-e9ae2d682d4d';
+
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-237e36b9-6b26-49c4-b94c-183042a888f1','TEMP-237e36b9-6b26-49c4-b94c-183042a888f1','0017F000005yvW1QAI','MR','bokovi@sodialci.ci','boko','India- +91',true,'vi','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','SENIOR_MANAGER','ACTIVE','Sodialci',true,true,now());
+
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-ae77cfc5-eaa6-4739-ae23-3a71b14f3374','TEMP-ae77cfc5-eaa6-4739-ae23-3a71b14f3374','0017F000005yvW1QAI','MR','mahmoud.fattah@arabianmaize.com','mahmoud','India- +91',true,'fattah','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','SENIOR_MANAGER','ACTIVE','Arabian maize',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-8be132e5-5e58-4a24-8553-b730529a9097','TEMP-8be132e5-5e58-4a24-8553-b730529a9097','0017F000005yvW1QAI','MR','sc@karanintermediates.com','sc','India- +91',true,'sc','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','SENIOR_MANAGER','ACTIVE','Karan intermediates',true,true,now());
+
+insert into tcp_users.users (id,user_id,account_id,salutation,email,first_name,international_calling_code,is_active,last_name,"password",role,status,account_name,is_active_for_cp,verification_email_sent,createdon)
+values('TEMP-61063388-5e09-47f8-a40d-f6d74c1a3aa1','TEMP-61063388-5e09-47f8-a40d-f6d74c1a3aa1','0017F000005yvW1QAI','MR','electrical@karanintermediates.com','electrical','India- +91',true,'karan','$2a$12$VO/3b8ov5EkPcQv8RuaB0ObKgAlWNCtUWtvTxwV6udopmv4F8lrW.','SENIOR_MANAGER','ACTIVE','Karan intermediates',true,true,now());
+
+delete from tcp_users.users where email = 'sikandar.pinjari@thermaxglobal.com' and id = 'TEMP-03a6f89c-c1fe-4f0a-ac12-75c3ae429b4b';
+delete from tcp_users.users where email = 'chandima.kumara@amefird.com.lk' and id = 'TEMP-6eff9292-0d7f-4199-85cb-2139c967d443';
+select * from tcp_users.users where email ='utility@mdvindustries.com';
+
+
+
+
+$2a$12$5heRkTl2AG2eQGZmR8kNAe.TCwiMuhGGsdQGvRK3OrSnGhqyu7.6u
